@@ -65,65 +65,65 @@ class _orderstapbarState extends State<orderstapbar> {
         ),
         body: TabBarView(children: [Active(), completed(), cancelled()]),
 
-        bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Color(0xFF1F222A),
-          type: BottomNavigationBarType.fixed,
-          selectedLabelStyle: TextStyle(color: Colors.grey),
-          unselectedLabelStyle: TextStyle(color: Colors.amber),
+        // bottomNavigationBar: BottomNavigationBar(
+        //   backgroundColor: Color(0xFF1F222A),
+        //   type: BottomNavigationBarType.fixed,
+        //   selectedLabelStyle: TextStyle(color: Colors.grey),
+        //   unselectedLabelStyle: TextStyle(color: Colors.amber),
 
-          selectedItemColor: Colors.green,
-          unselectedIconTheme: IconThemeData(
-            color: const Color.fromARGB(255, 182, 179, 170),
-          ),
+        //   selectedItemColor: Colors.green,
+        //   unselectedIconTheme: IconThemeData(
+        //     color: const Color.fromARGB(255, 182, 179, 170),
+        //   ),
 
-          items: [
-            BottomNavigationBarItem(
-              icon: IconButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => mainhome()),
-                  );
-                },
-                icon: const Icon(Icons.home),
-              ),
-              label: "Home",
-            ),
+        //   items: [
+        //     BottomNavigationBarItem(
+        //       icon: IconButton(
+        //         onPressed: () {
+        //           Navigator.push(
+        //             context,
+        //             MaterialPageRoute(builder: (context) => mainhome()),
+        //           );
+        //         },
+        //         icon: const Icon(Icons.home),
+        //       ),
+        //       label: "Home",
+        //     ),
 
-            BottomNavigationBarItem(
-              icon: IconButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => orderstapbar()),
-                  );
-                },
-                icon: const Icon(Icons.document_scanner),
-              ),
-              label: "Orders",
-            ),
-            BottomNavigationBarItem(
-              icon: IconButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => message()),
-                  );
-                },
-                icon: const Icon(Icons.message),
-              ),
-              label: "Message",
-            ),
-            const BottomNavigationBarItem(
-              icon: Icon(Icons.account_balance_wallet_rounded),
-              label: "E-Wallet",
-            ),
-            const BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline),
-              label: "Profie",
-            ),
-          ],
-        ),
+        //     BottomNavigationBarItem(
+        //       icon: IconButton(
+        //         onPressed: () {
+        //           Navigator.push(
+        //             context,
+        //             MaterialPageRoute(builder: (context) => orderstapbar()),
+        //           );
+        //         },
+        //         icon: const Icon(Icons.document_scanner),
+        //       ),
+        //       label: "Orders",
+        //     ),
+        //     BottomNavigationBarItem(
+        //       icon: IconButton(
+        //         onPressed: () {
+        //           Navigator.push(
+        //             context,
+        //             MaterialPageRoute(builder: (context) => message()),
+        //           );
+        //         },
+        //         icon: const Icon(Icons.message),
+        //       ),
+        //       label: "Message",
+        //     ),
+        //     const BottomNavigationBarItem(
+        //       icon: Icon(Icons.account_balance_wallet_rounded),
+        //       label: "E-Wallet",
+        //     ),
+        //     const BottomNavigationBarItem(
+        //       icon: Icon(Icons.person_outline),
+        //       label: "Profie",
+        //     ),
+        //   ],
+        // ),
       ),
     );
   }

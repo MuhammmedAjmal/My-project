@@ -111,7 +111,7 @@ class _page2State extends State<page2> {
               style: TextStyle(color: Colors.white),
             ),
           ),
-          SizedBox(height: 45),
+          SizedBox(height: 45.h),
 
           // Padding(
           //   padding: const EdgeInsets.all(30),
@@ -189,7 +189,7 @@ class _page3State extends State<page3> {
               style: TextStyle(color: Colors.white),
             ),
           ),
-          SizedBox(height: 45),
+          SizedBox(height: 45.h),
 
           InkWell(
             onTap: () {

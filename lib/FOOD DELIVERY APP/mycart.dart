@@ -27,9 +27,12 @@ class _mycartState extends State<mycart> {
           ),
         ),
         actions: [
-          Icon(
-            Icons.more_horiz,
-            color: const Color.fromARGB(240, 242, 238, 238),
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Icon(
+              Icons.more_horiz,
+              color: const Color.fromARGB(240, 242, 238, 238),
+            ),
           ),
         ],
       ),

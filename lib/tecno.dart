@@ -35,7 +35,7 @@ class _homepageState extends State<homepage> {
 
 class details extends StatefulWidget {
   final String textdata;
-  details({super.key, required this.textdata});
+  const details({super.key, required this.textdata});
 
   @override
   State<details> createState() => _detailsState();

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(MaterialApp(home: FillProfilePage()));
 
 class FillProfilePage extends StatelessWidget {
+  const FillProfilePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

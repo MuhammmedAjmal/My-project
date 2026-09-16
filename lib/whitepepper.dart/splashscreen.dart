@@ -11,6 +11,7 @@ class splash extends StatefulWidget {
 }
 
 class _splashState extends State<splash> {
+  @override
   void initState() {
     super.initState();
     Timer(

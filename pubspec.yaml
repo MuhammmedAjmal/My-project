@@ -40,6 +40,10 @@ dependencies:
   
   google_fonts: ^8.1.0
   flutter_screenutil_plus: ^1.4.0
+  firebase_core: ^4.13.0
+  curved_navigation_bar: ^1.0.6
+  flutter_screenutil: ^5.9.3
+  shared_preferences: ^2.5.5
   
   
 
@@ -68,7 +72,11 @@ flutter:
     - assets/images/unnamed.png
     - assets/images/burger.png
     - assets/images/pizza.png
-    - assets/images/noodles(1).png
+    - assets/images/bbbnoodls.png
+    - assets/images/meat.png
+    - assets/images/vegitables.png
+    - assets/images/dessert.png
+    - assets/images/drinks.png
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
